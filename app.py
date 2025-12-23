@@ -11,7 +11,7 @@ APP_NAME = os.getenv("APP_NAME", "Sample Plastic App")
 def home():
     content = {
         "app_name": APP_NAME,
-        "message": "Hello! This is sample content from a Flask app.",
+        "message": "Hello! This is testing file to deploy the changes.",
         "status": "Running successfully"
     }
     return plastic.jsonify(content)
